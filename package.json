@@ -1,0 +1,20 @@
+{
+  "name": "ai-productivity-bot",
+  "version": "1.0.0",
+  "description": "AI-powered productivity assistant integrating Slack, Email and Toggl API with LLM support (Groq) for workflow automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

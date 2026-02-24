@@ -13,4 +13,4 @@ app.get('/', (req, res) => {
 // Apply json parsing ONLY to our custom routes so we don't break Bolt's built-in parsers
 app.use("/toggl", express.json(), togglRoutes)
 
-module.exports = app
+module.exports = { app, slackApp: require('./slack').slackApp }

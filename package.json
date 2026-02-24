@@ -4,6 +4,8 @@
   "description": "AI-powered productivity assistant integrating Slack, Email and Toggl API with LLM support (Groq) for workflow automation",
   "main": "index.js",
   "scripts": {
+    "start": "node src/server.js",
+    "build": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
